@@ -1,0 +1,345 @@
+<!-- MAY THE SOURCE BE WITH YOU -->
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <title ng-bind="title">
+        NeoScript | Home
+    </title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <base href="/">
+
+    <!-- custom fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet"> has heavy load time-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+
+    <!-- build:css styles/lib.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="/bower_components/hover/css/hover.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/app.css -->
+    <!-- inject:css -->
+<link rel="stylesheet" href="styles/styles.css">
+        <!-- endinject -->
+    <!-- endbuild -->
+
+    <!-- Some black-magic for IE -->
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="/images/ns-long-trans-white.png" width="150" height="30" alt="NeoScript Logo" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="./student.html" class="hvr-underline-from-center">Student</a></li>
+                    <li><a href="./instructor.html" class="hvr-underline-from-center">Instructor</a></li>
+                    <li><a href="#" class="hvr-underline-from-center">School <span class="label label-danger">Coming Soon!</span></a></li>
+                    <!--
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    -->
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://portal.neoscript.in/#/register" class="hvr-underline-from-center"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="https://portal.neoscript.in" class="hvr-underline-from-center"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--
+    <header id="header-global" class="col-md-12">
+        <div class="container-fluid">
+            <div class="pull-left">
+                <input type="hidden" value="2" id="Flag" />
+                <h1 id="logo" data-sr="wait .9s, enter left, hustle 40px">
+                    <a href="/" id="logoa" class="jx-pg-link">
+                        <img src="/images/ns-long-trans-white.png" width="150" height="30" alt="" style="border:0" id="logo-b" />
+                        <img src="/images/ns-long-def.png" width="150" height="30" alt="" style="border:0" class="logo-h" id="logo-h" />
+                    </a><img src="/images/logo-loader.gif" id="loderimg" alt="" style="border:0;display:none" />
+                </h1>
+            </div>
+            <div class="pull-right">
+                <button class="navbar-toggle collapsed no-mg-rgt" data-toggle="collapse" data-target="#bs-navbar">
+                    <span class="icon-bar nav-menu-icon"></span>
+                    <span class="icon-bar nav-menu-icon"></span>
+                    <span class="icon-bar nav-menu-icon"></span>
+                </button>
+            </div>
+            <div class="pull-right navbar-collapse-wrap drop-menu-container">
+                <nav id="bs-navbar" class="collapse navbar-collapse no-bdr-top" data-sr="wait .9s, enter right, hustle 40px">
+                    <ul class="nav navbar-nav drop-menu-items">
+                        <li><a href="products" class="jx-pg-link"><i></i>Products</a></li>
+                        <li><a href="services" class="jx-pg-link"><i></i>Services</a></li>
+                        <li><a href="clients" class="jx-pg-link"><i></i>Clients</a></li>
+                        <li><a href="about" class="jx-pg-link"><i></i>About</a></li>
+                        <li><a href="careers" class="jx-pg-link"><i></i>Career</a></li>
+                        <li><a href="contactus"><i></i>Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    -->
+    <!--
+    <section class="sec-one">
+        <div class="overlay-wrapper-custom">
+            <div class="overlay blue">
+                <div class="main-text text-center">
+                    <h3>NeoScript</h3>
+                </div>
+                <div class="sub-text text-center">
+                    <h4>Disrupting Education</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <!-- Main banner -->
+    <section class="intro-sec-wrapper container-fluid">
+        <div class="intro-sec">
+            <div class="main-text text-center">
+                <h3 data-sr="wait .1s, enter left and hustle 100px" class="comp"><strong>Neo</strong>Script</h3>
+            </div>
+            <div class="sub-text text-center">
+                <h4 data-sr="wait .1s, enter right and hustle 100px">Disrupting Education</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="container-fluid">
+        <div class="row achievements">
+            <div class="col-sm-3 col-xs-6 text-center" data-sr="wait .1s, enter bottom and hustle 50px">
+                <p><i class="fa fa-code fa-3x"></i></p>
+                <p class="numbers">50</p>
+                <p class="name">Hackathons</p>
+            </div>
+            <div class="col-sm-3 col-xs-6 text-center" data-sr="wait .2s, enter bottom and hustle 50px">
+                <p><i class="fa fa-user fa-3x"></i></p>
+                <p class="numbers">3000</p>
+                <p class="name">Students</p>
+            </div>
+            <div class="col-sm-3 col-xs-6 text-center" data-sr="wait .3s, enter bottom and hustle 50px">
+                <p><i class="fa fa-book fa-3x"></i></p>
+                <p class="numbers">10</p>
+                <p class="name">Courses</p>
+            </div>
+            <div class="col-sm-3 col-xs-6 text-center" data-sr="wait .4s, enter bottom and hustles 50px">
+                <p><i class="fa fa-cogs fa-3x"></i></p>
+                <p class="numbers">5</p>
+                <p class="name">Workshops</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Stories -->
+    <section class="container-fluid absolute-wrapper">
+        <div class="row">
+            <div class="col-sm-4 col-xs-12 bg-blue-dark"  style="height: 250px;">
+                <h3 data-sr="wait .1s, enter left and move 50px">User Stories</h3>
+                <!-- Carousel -->
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators mod-carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <blockquote>
+                                <p>Using NeoScript has really saved a lot of my time which I can now dedicate towards my students. Using the reports
+                                    generated, I can know how well are the students grasping the concepts. I also know what suits my student's better and I can
+                                    model my courses to their needs.
+                                </p>
+                                <footer>Dr Salman Abdul Moiz, University of Hyderabad</footer>
+                            </blockquote>
+                        </div>
+
+                        <!--<div class="item">
+                            <blockquote>
+                                <p>
+                                    Able to teach properly, I was.  Able to schedule the assessments easily, I was. Leave the rest to NeoScript.  
+                                    They notified the students and also reported the statistics back to me once, over, was it. The Force is strong
+                                    with this one.
+                                </p>
+                                <footer>Master Yoda</footer>
+                            </blockquote>
+                        </div>-->
+
+                        <div class="item">
+                            <blockquote>
+                                <p>
+                                    With so many books and programming material available, I was lost and had no clue where to start. Courses at NeoScript helped me to
+                                    in a guided learning process.
+                                </p>
+                                <footer>Rahul, M.C.A Student at UoH.</footer>
+                            </blockquote>
+                        </div>
+
+                        <div class="item">
+                            <blockquote>
+                                <p>
+                                    Writing Program used to scare me, though i studied a lot of programming books but i did not had any hands-on experience.
+                                    NeoScript problem set help me to build that confidence, now i can code efficiently.
+                                </p>
+                                <footer>Amit, M.Tech Student at UoH </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control mod-carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <i class="fa fa-chevron-left icon-prev" aria-hidden="true"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control mod-carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <i class="fa fa-chevron-right icon-next" aria-hidden="true"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-8 col-xs-12 bg-blue-light about-us">
+                <h3 data-sr="wait .1s, enter right and move 50px">Education should be fun and accessible to all</h3>
+                <p data-sr="wait .1s, enter bottom and move 50px" class="text-justify">
+                    Here at NeoScript we understand the importance of Education and strongly believe that technology can make our current education system
+                    even more effective. Learning can be made fun and simple.<br>
+                    We have come up with a self-paced learning tool, where the students can learn from various courses. These courses are
+                    crafted carefully to address the needs of the students. To supplement the courses there is huge problem set which students
+                    can use for practise.<br>
+                    The other major variable in the equation of our education system are our intructors, we have tried to remove the 
+                    hassles of evaluation and designing of the regular practise sets. Now the instructors can focus on the core business of
+                    imparting knowledge to the students and let us take care of the rest.
+                    Instructors can focus on "How to teach" rather than "What to teach", thereby improving the quality of education imparted to the students.
+                </p>
+                <p data-sr="wait .3s, enter bottom and move 50px" class="know-more">
+                    Know More &nbsp;
+                    <i class="fa fa-chevron-right"></i>
+                    <a href="./student.html" class="text-smoky-white">For Students</a>, <a href="./instructor.html" class="text-smoky-white">For Instructors</a>
+                </p>
+            </div>
+        </div>
+        <div class="text-on-top">
+           
+        </div>
+    </section>
+
+    <!-- Quick links-->
+    <section class="container-fluid" style="padding: 2.5em; background-color: #DDE">
+        <div class="row quicklinks">
+            <div class="col-sm-3 col-xs-6">
+                <h3>Features</h3>
+                <p><a href="student.html">For Students</a></p>
+                <p><a href="instructor.html">For Instructors</a></p>
+                <p>For Schools <span class="label label-danger">Coming Soon!</span></p>
+                <p>For Recruiters <span class="label label-danger">Coming Soon!</span></p>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <h3>Explore</h3>
+                <p><a href="https://consultancy.neoscript.in" target="_blank">NeoScript Consultancy</a></p>
+                <p><a href="careers.html">Careers</a></p>
+                <p><a href="https://blog.neoscript.in" target="_blank">Blog</a></p>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <h3>Contact Us</h3>
+                <p>NeoScript Technologies Pvt. Ltd.</p>
+                <p><i class="fa fa-envelope-o" aria-hidden="true"></i> hello@neoscript.in</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i> (+91) 7382352009, (+91) 8985086974</p>
+                <p><i class="fa fa-map-marker" aria-hidden="true"></i> T-2, TIDE Center, Science Complex, University of Hyderabad, Hyderabad-500046</p>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <h3>Social</h3>
+                <p>
+                    <a href="https://www.facebook.com/neoscript.in" target="_blank">
+                        <i class="fa fa-facebook-official fa-2x text-blue-dark hvr-buzz-out" aria-hidden="true"></i>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com/NeoscriptI" target="_blank">
+                        <i class="fa fa-twitter-square fa-2x text-blue-light hvr-buzz-out" aria-hidden="true"></i>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://plus.google.com/u/0/112395955717224932136" target="_blank">
+                        <i class="fa fa-google-plus-square fa-2x text-danger hvr-buzz-out" aria-hidden="true"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- build:js js/lib.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/bower_components/moment/moment.js"></script>
+    <script src="/bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js js/app.js -->
+    <!-- inject:js -->
+    <script src="/src/client/app/scrollReveal.min.js"></script>
+    <!-- endinject -->
+
+    <!-- inject:templates:js -->
+    <!-- endinject -->
+    <!-- endbuild -->
+    <script type="text/javascript" >
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/57fe0c019ca1830bdc90d719/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <script>
+        (function ($) {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 450) {
+                    //$('.navbar').removeClass('navbar-transparent').addClass('navbar-inverse');
+                    $('.navbar').removeClass('opaque-navbar');
+                } else {
+                    //$('.navbar').removeClass('navbar-inverse').addClass('navbar-transparent');
+                    $('.navbar').addClass('opaque-navbar');
+                }
+            });
+            window.sr = new scrollReveal();
+            smoothScroll.init();
+        })(jQuery);
+    </script>
+</body>
+
+</html>

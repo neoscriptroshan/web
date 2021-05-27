@@ -1,0 +1,13 @@
+.idea/
+.vscode/
+node_modules/grunt*
+node_modules/
+bower_components/
+
+
+# other
+.tmp
+*.*~
+
+#build
+build/

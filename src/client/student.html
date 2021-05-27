@@ -1,0 +1,248 @@
+<!-- MAY THE SOURCE BE WITH YOU -->
+<!DOCTYPE html>
+<html ng-app="app">
+
+<head>
+    <title ng-bind="title">
+        NeoScript | Student
+    </title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <base href="/">
+
+    <!-- custom fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet"> has heavy load time-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+
+    <!-- build:css styles/lib.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="/bower_components/hover/css/hover.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/app.css -->
+    <!-- inject:css -->
+<link rel="stylesheet" href="styles/styles.css">
+        <!-- endinject -->
+    <!-- endbuild -->
+
+    <!-- Some black-magic for IE -->
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="/images/ns-long-trans-white.png" width="150" height="30" alt="NeoScript Logo" />
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html" class="hvr-underline-from-center">Home</a></li>
+                    <li><a href="instructor.html" class="hvr-underline-from-center">Instructor</a></li>
+                    <li><a href="#" class="hvr-underline-from-center">School <span class="label label-danger">Coming Soon!</span></a></li>
+                    <li><a href="careers.html" class="hvr-underline-from-center">Careers</a></li>
+                    <!--
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Page 1-1</a></li>
+                            <li><a href="#">Page 1-2</a></li>
+                            <li><a href="#">Page 1-3</a></li>
+                        </ul>
+                    </li>
+                    -->
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://portal.neoscript.in/#/register" class="hvr-underline-from-center"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="https://portal.neoscript.in" class="hvr-underline-from-center"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main banner -->
+    <section class="intro-sec-wrapper container-fluid">
+        <div class="intro-sec intro-sec-student">
+            <div class="main-text text-center">
+                <h3 data-sr="wait .1s, enter left and hustle 100px" class="comp"><strong>Neo</strong>Script</h3>
+            </div>
+            <div class="sub-text text-center">
+                <h4 data-sr="wait .1s, enter right and hustle 100px">A person who never made a mistake never tried anything new. Let's begin today.</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="container-fluid aim">
+        <div>
+            <h2 class="text-center">How we help</h2>
+
+            <div class="info-box">
+                <span class="info-box-icon bg-infra-red"><i class="fa fa-star-o"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-number">All Resources in one place</span>
+                    <p class="info-box-mod-text">
+                        Don't know where to begin ?<br>
+                        We have a set of carefully crafted tutorials to get you started, forget about everything just get started. 
+                        At NeoScript we have tutorials in various forms available.
+                    </p>
+                </div>
+            </div>
+            <div class="info-box">
+                <span class="info-box-icon info-box-icon-inverse bg-dazzled-blue"><i class="fa fa-star-o"></i></span>
+                <div class="info-box-content info-box-content-inverse">
+                    <span class="info-box-number">No Software Installations</span>
+                    <p class="info-box-mod-text">
+                        Want to learn various programming languages C,C++,Java etc finding it difficult to setup in your system. 
+                        You don't have to go through all the pain of installing just focus on learning for rest of the things NeoScript is here
+                        All you need is a browser. Log in and you are ready to code.
+                    </p>
+                </div>
+            </div>
+            <div class="info-box">
+                <span class="info-box-icon bg-orange-yellow"><i class="fa fa-star-o"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-number">Hackathons</span>
+                    <p class="info-box-mod-text">
+                        Like to compete in Competitions ... We are launching range of Hackathons with various difficulty level
+                        so as to have an incremental learning process. Judge your skills right after learning concepts participate in
+                        our hackathons to see where you stand and keep improving yourself.
+                    </p>
+                </div>
+            </div>
+            <div class="info-box">
+                <span class="info-box-icon info-box-icon-inverse bg-carribean-green"><i class="fa fa-star-o"></i></span>
+                <div class="info-box-content info-box-content-inverse">
+                    <span class="info-box-number">Workshops</span>
+                    <p class="info-box-mod-text">
+                        We do conduct Workshops for skill development ranging on various topics. our workshops range from learning 
+                        Web, Mobile Application Development, Internet of Things. Want to conduct workshop at your college write to us at 
+                        <strong><a href="mailto:hello@neoscript.in">Email</a></strong>
+                    </p>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <span class="info-box-icon bg-dark-puce"><i class="fa fa-star-o"></i></span>
+                <div class="info-box-content">
+                    <span class="info-box-number">Student Ambassador Plan</span>
+                    <p class="info-box-mod-text">
+                        We love students and always would like to be in touch with the student community. Join our Ambassador program which 
+                        brings enormous learning opportunities with exciting gifts. You will be exposed to the global student community of
+                        and get a chance to learn from your peers and build cool stuff. Want to be a part write us at <strong><a href="mailto:hello@neoscript.in">Email</a></strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Stories -->
+    <section class="container-fluid bg-dazzled-blue">
+        <div style="padding: 1em 0;">
+            <h2 class="text-center">
+                What are you waiting for? <a href="https://portal.neoscript.in/#/register" class="text-blue-light">Sign Up</a> today!
+            </h2>
+        </div>
+    </section>
+
+    <!-- Quick links-->
+    <section class="container-fluid" style="padding: 2.5em; background-color: #DDE">
+        <div class="row quicklinks">
+            <div class="col-sm-3 col-xs-6">
+                <h3>Features</h3>
+                <p><a href="student.html">For Students</a></p>
+                <p><a href="instructor.html">For Instructors</a></p>
+                <p>For Schools <span class="label label-danger">Coming Soon!</span></p>
+                <p>For Recruiters <span class="label label-danger">Coming Soon!</span></p>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <h3>Explore</h3>
+                <p><a href="https://consultancy.neoscript.in" target="_blank">NeoScript Consultancy</a></p>
+                <p><a href="https://blog.neoscript.in" target="_blank">Blog</a></p>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <h3>Contact Us</h3>
+                <p>NeoScript Technologies Pvt. Ltd.</p>
+                <p><i class="fa fa-envelope-o" aria-hidden="true"></i> hello@neoscript.in</p>
+                <p><i class="fa fa-phone" aria-hidden="true"></i> (+91) 7382352009, (+91) 8985086974</p>
+                <p><i class="fa fa-map-marker" aria-hidden="true"></i> T-2, TIDE Center, Science Complex, University of Hyderabad, Hyderabad-500046</p>
+            </div>
+            <div class="col-sm-3 col-xs-6">
+                <h3>Social</h3>
+                <p>
+                    <a href="https://www.facebook.com/neoscript.in" target="_blank">
+                        <i class="fa fa-facebook-official fa-2x text-blue-dark hvr-buzz-out" aria-hidden="true"></i>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com/NeoscriptI" target="_blank">
+                        <i class="fa fa-twitter-square fa-2x text-blue-light hvr-buzz-out" aria-hidden="true"></i>
+                    </a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://plus.google.com/u/0/112395955717224932136" target="_blank">
+                        <i class="fa fa-google-plus-square fa-2x text-danger hvr-buzz-out" aria-hidden="true"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- build:js js/lib.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="/bower_components/moment/moment.js"></script>
+    <script src="/bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js js/app.js -->
+    <!-- inject:js -->
+    <script src="/src/client/app/scrollReveal.min.js"></script>
+    <!-- endinject -->
+
+    <!-- inject:templates:js -->
+    <!-- endinject -->
+    <!-- endbuild -->
+    <script type="text/javascript" >
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/57fe0c019ca1830bdc90d719/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <script>
+        (function ($) {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 450) {
+                    //$('.navbar').removeClass('navbar-transparent').addClass('navbar-inverse');
+                    $('.navbar').removeClass('opaque-navbar');
+                } else {
+                    //$('.navbar').removeClass('navbar-inverse').addClass('navbar-transparent');
+                    $('.navbar').addClass('opaque-navbar');
+                }
+            });
+            window.sr = new scrollReveal();
+        })(jQuery);
+    </script>
+</body>
+
+</html>
